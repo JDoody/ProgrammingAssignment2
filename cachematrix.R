@@ -3,7 +3,7 @@
 
 ## This function creates a special "matrix" object that can cache its inverse.
 ## User should call this function by creating a invertible matrix using makeCacheMatrix and storing in a variable of their choice
-## example my_matrix <- makeCacheMatrix(rnorm(16,4,4))
+## 
 
 makeCacheMatrix <- function(x = matrix()){ 
 
